@@ -1,4 +1,28 @@
-# Getting Started with Create React App
+# Title
+"Music Recommendation Using Facial Emotions," leverages advanced AI technology to
+provide a personalized music experience by recommending playlists that align with the user's detected
+facial emotions. The application begins at the home page, which features a "Let's Start" button. Upon
+clicking, users are presented with two options: they can either upload an image from their device or
+use their webcam to capture a real-time photo. The application employs the DeepFace library to
+analyze the uploaded or captured image, accurately detecting the user's emotions such as happiness,
+sadness, anger, surprise, and more. Once the emotion is detected, the system offers immediate voice
+feedback and a Swal alert message to inform the user of the identified emotion. Following this, the
+user is redirected to a personalized playlist page, where music recommendations are curated to match
+their emotional state. This page offers flexibility by allowing users to choose between video and audio
+formats for their playlists. Additionally, the platform supports multiple languages, including English,
+Tamil, Hindi, and Kannada, enabling a broader user base to enjoy the service in their preferred
+language.
+
+# Screeshots
+![Screenshot (1)](https://github.com/user-attachments/assets/25528adc-2a87-4bba-8a40-1b1ad29ee379)
+![Screenshot (2)](https://github.com/user-attachments/assets/0b5c4d6c-8ed3-40fe-ae7f-dd3048217251)
+![Screenshot (3)](https://github.com/user-attachments/assets/d5bc00ae-1262-44ee-a3b4-e5b1a09527c1)
+![Screenshot (4)](https://github.com/user-attachments/assets/186eb4f8-eb25-4c39-a217-e158da795a6e)
+![Screenshot (5)](https://github.com/user-attachments/assets/0acee786-a202-420b-87bb-df452824e308)
+![Screenshot (6)](![Screenshot (1)](https://github.com/user-attachments/assets/a90bd028-acc5-42ee-a874-2d1d53bf61c6)
+
+# Getting Started with Create React 
+App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
