@@ -1,4 +1,4 @@
-# Title
+# Title-Music Recommendation Using Facial Emotions
 "Music Recommendation Using Facial Emotions," leverages advanced AI technology to
 provide a personalized music experience by recommending playlists that align with the user's detected
 facial emotions. The application begins at the home page, which features a "Let's Start" button. Upon
@@ -19,7 +19,9 @@ language.
 ![Screenshot (3)](https://github.com/user-attachments/assets/d5bc00ae-1262-44ee-a3b4-e5b1a09527c1)
 ![Screenshot (4)](https://github.com/user-attachments/assets/186eb4f8-eb25-4c39-a217-e158da795a6e)
 ![Screenshot (5)](https://github.com/user-attachments/assets/0acee786-a202-420b-87bb-df452824e308)
-![Screenshot (6)](![Screenshot (1)](https://github.com/user-attachments/assets/a90bd028-acc5-42ee-a874-2d1d53bf61c6)
+![Screenshot (6)](https://github.com/user-attachments/assets/f0be7afc-29ca-4020-b98a-165b11a9a51b)
+![Screenshot (7)](https://github.com/user-attachments/assets/3a19de1c-7805-48f8-9ddf-7281c339970d)
+
 
 # Getting Started with Create React 
 App
