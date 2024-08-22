@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@300;700&display=swap');
+
+ body { 
+    /* overflow: hidden; */
+     /* background-color: rgba(208, 191, 255, 1); */
+     background-color: rgba(10, 25, 47, 1);
+ } 
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(10, 25, 47, 1);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(204, 214, 246);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+}
+
+.particles{
+    z-index: -1;
+    position: absolute;
+  }
+h1{
+    font-family: 'Aleo', serif;
+    font-size: 97px;
+    color: rgb(204, 214, 246);
+    /* padding-left: 145px; */
+    /* padding: 164px 0px 0px 145px; */
+    /* margin: -28.6px 0px; */
+    font-weight: 700;
+}
+
+h2{
+    font-family: 'Aleo', serif;
+    font-size: 48px;
+    color: #8892b0;
+    /* padding: 0px 0px 0px 145px; */
+    font-weight: 300;
+}
+
+
+button.Primary{
+    background-color: transparent;
+    /* padding: 19px 50px 23px 37px; */
+    /* padding: 14px 37px 22px 37px; */
+    padding: 14px 20px;
+    font-size: 16px;
+    /* border: none; */
+    border-color: aqua;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    mix-blend-mode: normal;
+}
+/* .primary :hover{
+    
+} */
+
+h3{
+    font-family: 'Aleo', serif;
+    font-size: 20px;
+    color: #8892b0;
+    /* padding: 0px 0px 0px 145px; */
+    font-weight: 300;
+    margin-top: 40px;
+}
+
+.container-2 img{
+    text-align: center;
+    width: 90%;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    h1{
+        font-size: 67px;
+    }
+    h2{
+        font-size: 28px;
+        line-height: 1.4;
+    }
+}

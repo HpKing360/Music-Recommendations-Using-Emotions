@@ -1,0 +1,9 @@
+.table>:not(caption)>*>* {
+    padding: 0.8rem .8rem !important;
+}
+@media screen and (min-width: 1000px) {
+    .ytube{
+        position: fixed;
+        right: 0;
+    }
+}
