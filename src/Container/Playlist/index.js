@@ -24,7 +24,7 @@ export default function Playlist() {
     if (selectedLanguage === "english"|| selectedLanguage === "tamil" || selectedLanguage === "kannada"||selectedLanguage === "hindi") {
       query = `${location.state.emotion}%20song%20${selectedLanguage}`;
     }
-    let response = await fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=${resultlen}&q=${query}&type=video&key=AIzaSyDEN9HnM5J5esIkvApw_ijoZo7GxkYJ0MM${selectedLanguage === "english" || selectedLanguage === "hindi"|| selectedLanguage === "tamil"|| selectedLanguage === "kannada" ? "&videoDuration=short" : ""}`, {
+    let response = await fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=${resultlen}&q=${query}&type=video&key="YOUR API KEY"${selectedLanguage === "english" || selectedLanguage === "hindi"|| selectedLanguage === "tamil"|| selectedLanguage === "kannada" ? "&videoDuration=short" : ""}`, {
       method: "GET",
     });
 
